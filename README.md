@@ -14,4 +14,4 @@ The execution of the `:PackerUpdate` or `:PackerInstall` commands might be requi
 - [CoC](https://github.com/neoclide/coc.nvim) for code completion
 - [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua) as a file explorer
 - [onedark](https://github.com/navarasu/onedark.nvim) as editor theme
-
+- [lualine](https://github.com/nvim-lualine/lualine.nvim) for a pretty status bar
