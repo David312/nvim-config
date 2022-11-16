@@ -1,6 +1,10 @@
 # nvim-config
 My NeoVim config
 
+## Dependencies
+- [NeoVim](https://neovim.io/) version 0.7.1+
+- [NerdFonts](https://www.nerdfonts.com/) for pretty icons in the file explorer
+
 ## Instalation
 Copy the `.config/nvim` folder into your home directory `~/.config/nvim`.
 The execution of the `:PackerUpdate` or `:PackerInstall` commands might be required
