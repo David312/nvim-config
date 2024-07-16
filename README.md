@@ -1,17 +1,23 @@
 # nvim-config
-My NeoVim config
+My NeoVim config. 
+I am using [NvChad](https://github.com/NvChad/NvChad) configuration.
 
 ## Dependencies
-- [NeoVim](https://neovim.io/) version 0.7.1+
-- [NerdFonts](https://www.nerdfonts.com/) for pretty icons in the file explorer
+- [NeoVim](https://neovim.io/) version 0.10.0 or higher.
+- [NerdFonts](https://www.nerdfonts.com/) for pretty icons in the file explorer.
+- [RipGrep](https://github.com/BurntSushi/ripgrep) required by NvChad.
 
 ## Instalation
-Copy the `.config/nvim` folder into your home directory `~/.config/nvim`.
-The execution of the `:PackerUpdate` or `:PackerInstall` commands might be required
+Create a symbolic link (recomended) or copy the `.config/nvim` folder into your home directory `~/.config/nvim`:
+```bash
+# Creating a symbolic link
+$ ln -s $(PWD)/.config/nvim ~/.config/nvim
+$ nvim
+```
+```bash
+# Copy this project configuration files
+$ cp -r $(PWD)/.config/nvim ~/.config/nvim
+$ nvim
+```
+NvChad should start downloading the dependencies. After it finishes run `:MasonInstallAll` command.
 
-## Plugins
-- [Packer](https://github.com/wbthomason/packer.nvim) as plugin manager
-- [CoC](https://github.com/neoclide/coc.nvim) for code completion
-- [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua) as a file explorer
-- [onedark](https://github.com/navarasu/onedark.nvim) as editor theme
-- [lualine](https://github.com/nvim-lualine/lualine.nvim) for a pretty status bar
